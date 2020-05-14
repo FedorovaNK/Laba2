@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TorgObjects</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DomainServices\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TorgObjects.BusinessLogic\TorgObjects.BusinessLogic.csproj" />
+  </ItemGroup>
+
+</Project>
